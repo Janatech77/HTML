@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table border="1" cellpadding="10">
+        <th colspan="5" style="background-color: rgb(192, 79, 147);">my table</th>
+        <tr style="background-color: aqua;"> 
+            <td><b>Device</b></td>
+            <td><b>Brand</b></td>
+            <td colspan="2"><b>Specifications</b></td>
+        </tr> 
+        
+        <tr>
+            <td rowspan="3">smartphone</td>
+            <td rowspan="3">apple</td>
+            <td style="background-color: rgb(187, 148, 40);"><b>Model</b></td>
+            <td style="background-color: rgb(187, 148, 40);"><b>Strong</b></td>
+        </tr>
+        <tr>
+            <td>iPhone 12pro</td>
+            <td>256GB</td>
+        </tr>
+
+         <tr>
+            <td>iPhone SE</td>
+            <td>128GB</td>
+        </tr>
+
+        <tr>
+            <td>Laptop</td>
+            <td>HP</td>
+            <td colspan="3"> 15.6"Display</td>
+        </tr>
+
+        <tr>
+            <td>Table</td>
+            <td>Samaung</td>
+            <td colspan="3"> 15.6"Display</td>
+        </tr>
+    </table>
+
+</body>
+</html>
